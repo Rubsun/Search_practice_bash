@@ -3,7 +3,7 @@
 chmod +x search_word.sh
 echo "Запушен тест на проверку корректную работу"
 
-./search_word.sh input.txt output.txt
+./search_word.sh input output
 
 if [[ $? -eq 0 ]]
 then
